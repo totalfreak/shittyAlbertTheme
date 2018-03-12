@@ -46,10 +46,11 @@
 
 QListView {
 	selection-color: #000000;
+  background: transparent;
   border-radius: 10px;
 }
 QListView::item {
-  background: rgba(150, 150, 5, 10);
+  background: rgba(150, 150, 5, 0);
   border-radius: 10px;
 }
 
