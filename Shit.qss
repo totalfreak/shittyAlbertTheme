@@ -36,10 +36,10 @@
   	padding: 8px;
 
   /* Workaround for Qt to get fixed size button*/
-	min-width:14px;
-	min-height:14px;
-	max-width:14px;
-	max-height:14px;
+	min-width:17px;
+	min-height:17px;
+	max-width:17px;
+	max-height:17px;
 }
 
 /********** ListViews ************/
@@ -57,6 +57,7 @@ QListView::item {
 QListView::item:selected {
 	background: #eeeeee;
   border-radius: 10px;
+  font-size: 80px;
 }
 
 QListView QScrollBar:vertical  {
@@ -81,7 +82,7 @@ QListView QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
 /********** actionList **********/
 
 QListView#actionList {
-	font-size: 40px;
+	/*font-size: 40px;*/
 }
 
 QListView#actionList::item{
